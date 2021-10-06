@@ -1,10 +1,11 @@
 function sampleFunction() {
     let runNumber = 1; // initialisation
 
-    while (runNumber <= 0) { // condition
-        console.log(`Hi`);
+    do {
+        console.log(`Hi this is run number ${runNumber}`);
         runNumber = runNumber + 1; // increament
     }
+    while (runNumber <= 0) // condition
 }
 
 
@@ -22,3 +23,6 @@ function sampleFunction() {
 // 5 * 8 = 40
 // 5 * 9 = 45
 // 5 * 10 = 50
+
+// while: 5 times 
+// do while: 10 times
