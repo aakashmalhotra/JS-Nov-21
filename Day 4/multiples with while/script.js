@@ -1,12 +1,13 @@
 function sampleFunction() {
     let rowNumber = 1; // initialisation
 
-    while (rowNumber <= 10) { // condition
-        let multiple = 5 * rowNumber;
-        console.log(`5 * ${rowNumber} = ${multiple}`);
-        // console.log(`5 * ${rowNumber} = ${5 * rowNumber}`);
-        rowNumber = rowNumber + 1; //Increament
+    do {
+        console.log(`5 * ${rowNumber} = ${5 * rowNumber}`);
+        // rowNumber = rowNumber + 1;
+        // rowNumber += 1;
+        rowNumber++;
     }
+    while (rowNumber <= 10);
 }
 
 
