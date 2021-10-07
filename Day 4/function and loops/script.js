@@ -31,8 +31,17 @@ function drinkDecider(age) {
 
 // Program 2:
 // Create a function named comparer which takes 2 arguments num1 and num2. Display which number is greater using this function.
+// If both are equal display "Both numbers are equal"
 function comparer(num1, num2) {
-
+    if (num1 > num2) {
+        console.log(`${num1} is greater`)
+    }
+    else if (num2 > num1) {
+        console.log(`${num2} is greater`)
+    }
+    else {
+        console.log("Both are equal");
+    }
 }
 
 
