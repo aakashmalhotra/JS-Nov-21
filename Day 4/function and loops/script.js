@@ -56,6 +56,47 @@ function nameReplicator(replicationfactor) {
 }
 
 // Program 4:
-// Create a function multipleDisplayer that takes 2 arguments multipleOf and numberOfTimes. Use this function to display the multiples of a number.
+// Create a function advancedMultipleDisplayer that takes 2 arguments multipleOf and numberOfTimes. Use this function to display the multiples of a number.
 // multipleOf would be used to decide multiples of which number would be produced.
 // numberOfTimes would be used to decide how many multiples would be displayed.
+
+// Sample outputs:
+
+// Sample 1
+// multipleDisplayer(5,3);
+
+// 5 * 1 = 5
+// 5 * 2 = 10
+// 5 * 3 = 15
+
+// Sample 2
+// multipleDisplayer(3,5);
+
+// 3 * 1 = 3
+// 3 * 2 = 6
+// 3 * 3 = 9
+// 3 * 4 = 12
+// 3 * 5 = 15
+
+// Sample 2
+// multipleDisplayer(6,10);
+
+// 6 * 1 = 6
+// 6 * 2 = 12
+// 6 * 3 = 18
+// 6 * 4 = 24
+// 6 * 5 = 30
+// 6 * 6 = 36
+// 6 * 7 = 42
+// 6 * 8 = 48
+// 6 * 9 = 54
+// 6 * 10 = 60
+
+function advancedMultipleDisplayer(multipleOf, numberOfTimes) {
+    let rowNumber;
+
+    for (rowNumber = 1; rowNumber <= numberOfTimes; rowNumber++) {
+        let multiplicationAnswer = rowNumber * multipleOf;
+        console.log(`${multipleOf} * ${rowNumber} = ${multiplicationAnswer}`);
+    }
+}
