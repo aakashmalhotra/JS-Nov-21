@@ -1,4 +1,4 @@
-function functionHandler() {
+function multiplierFunctionHandler() {
     multipleDisplayer(5);
     multipleDisplayer(7);
 }
