@@ -13,6 +13,8 @@ function multipleDisplayer(multipleOf) {
 
 }
 
+// Send to me in private message for feedback
+
 // Program 1:
 // Create a function named drinkDecider which takes 1 argument age and if the user is less than 18 years old it displays
 // "You can have only water or soda"
