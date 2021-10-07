@@ -100,3 +100,5 @@ function advancedMultipleDisplayer(multipleOf, numberOfTimes) {
         console.log(`${multipleOf} * ${rowNumber} = ${multiplicationAnswer}`);
     }
 }
+
+// test test
