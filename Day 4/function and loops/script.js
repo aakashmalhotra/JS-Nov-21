@@ -49,6 +49,12 @@ function comparer(num1, num2) {
 // Write a function named nameReplicator which takes 1 argument replicationfactor which would receive a number.
 // The word "John" should be printed as many times as replicationfactor.
 
+function nameReplicator(replicationfactor) {
+    for (let iterator = 1; iterator <= replicationfactor; iterator++) {
+        console.log("John");
+    }
+}
+
 // Program 4:
 // Create a function multipleDisplayer that takes 2 arguments multipleOf and numberOfTimes. Use this function to display the multiples of a number.
 // multipleOf would be used to decide multiples of which number would be produced.
