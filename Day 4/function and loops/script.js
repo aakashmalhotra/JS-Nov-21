@@ -93,9 +93,9 @@ function nameReplicator(replicationfactor) {
 // 6 * 10 = 60
 
 function advancedMultipleDisplayer(multipleOf, numberOfTimes) {
-    let rowNumber;
+    let i;
 
-    for (rowNumber = 1; rowNumber <= numberOfTimes; rowNumber++) {
+    for (i = 1; i <= numberOfTimes; i++) {
         let multiplicationAnswer = rowNumber * multipleOf;
         console.log(`${multipleOf} * ${rowNumber} = ${multiplicationAnswer}`);
     }
