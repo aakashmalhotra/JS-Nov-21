@@ -8,13 +8,27 @@ function sampleFunction() {
 
 // Defining a function
 function sayHello(name) {
-    delimeterPrinter('#');
+    delimeterPrinter();
     console.log(`**** Hi! ${name} ****`);
-    delimeterPrinter('*');
+    delimeterPrinter();
 }
 
 function delimeterPrinter() {
-    console.log("------------------------------");
+    console.log(`********`);
 }
 
+
+// function delimeterPrinter(delimeter) {
+//     let fullLine = '';
+//     for (let hakunaMatata = 1; hakunaMatata <= 20; hakunaMatata++) {
+//         fullLine = fullLine + delimeter;
+//     }
+//     console.log(fullLine);
+// }
+
 // Change function delimeterPrinter so that it takes a symbol that would be printer as a delimter 20 times.
+
+
+// Print Multiple of 7 from 1 to 10 using loops
+// 7 * 1 = 7
+// 7 * 2 = 14
