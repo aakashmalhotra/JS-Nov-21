@@ -20,9 +20,21 @@ function multipleDisplayer(multipleOf) {
 // "You can have only water or soda"
 // If the user is 18 years or older it displays
 // "You can drink water, soda or beer"
+function drinkDecider(age) {
+    if (age >= 18) {
+        console.log("You can drink water, soda or beer");
+    }
+    else {
+        console.log("You can have only water or soda");
+    }
+}
 
 // Program 2:
 // Create a function named comparer which takes 2 arguments num1 and num2. Display which number is greater using this function.
+function comparer(num1, num2) {
+
+}
+
 
 // Program 3:
 // Write a function named nameReplicator which takes 1 argument replicationfactor which would receive a number.
