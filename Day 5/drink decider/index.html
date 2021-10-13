@@ -18,7 +18,12 @@
             Person's age
             <input type="text" id="age" name="age">
         </label>
-        <button onclick="decideTheDrink()">Submit age</button>
+        <!-- <button onclick="return decideTheDrink()">Submit age</button> -->
+
+        <button onclick="decideTheDrink(event)">Submit age</button>
+
+        <div id="result">The result would be printed here</div>
+
     </form>
 
 </body>
