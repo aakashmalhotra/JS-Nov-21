@@ -12,4 +12,5 @@ function sampleFunction() {
         console.log(students[i]);
     }
 
+    // Print the list of all the numbers in array 'numbers'
 }
