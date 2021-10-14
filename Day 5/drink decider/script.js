@@ -10,10 +10,9 @@ function decideTheDrink(event) {
     const textBoxEl = document.getElementById('age');
     const age = textBoxEl.value;
     // console.log(age);
-
     const resultDivEl = document.getElementById("result");
 
-
+    // Validation
     if (age <= 12) {
         resultDivEl.textContent = "You cannot enter";
         resultDivEl.style.color = "red";
