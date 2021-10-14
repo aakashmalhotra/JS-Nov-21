@@ -9,7 +9,6 @@ function printInResultDiv(resultString) {
     resultEl.textContent = resultString;
 }
 
-
 function add(event) {
     event.preventDefault();
     const num1 = fetchNumberFromTextBox("num1");
