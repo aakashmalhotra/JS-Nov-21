@@ -13,4 +13,7 @@ function sampleFunction() {
     }
 
     // Print the list of all the numbers in array 'numbers'
+
+
+    // Have a list of students in an array. There must be a button on the HTML page that says "Pick a student randomly". At the click of the button pick a student from the array randomly and display it on the HTML page.
 }
