@@ -29,14 +29,6 @@ function addCake(event) {
     // console.log(cake);
     cakeList.push(cake);
 
-    // replaces above 2 lines
-    // cakeList.push({
-    //     name: name,
-    //     calories: calories,
-    //     price: price,
-    //     icingColor: icingColor
-    // })
-
     console.log(cakeList);
 
 
