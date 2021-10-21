@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <main class="main-container">
+        <h1>Cakes list </h1>
+
+        <form>
+
+            <div class="field">
+                <label for="name">
+                    Name: <br>
+                    <input type="text" id="name" name="name">
+                </label>
+            </div>
+
+            <div class="field">
+                <label for="calories">
+                    Calories: <br>
+                    <input type="number" id="calories" name="calories">
+                </label>
+            </div>
+
+            <div class="field">
+                <label for="price">
+                    Price: <br>
+                    <input type="number" id="price" name="price">
+                </label>
+            </div>
+
+            <div class="field">
+                <label for="icing-color">
+                    Icing Color: <br>
+                    <input type="text" id="icing-color" name="icing-color">
+                </label>
+            </div>
+
+            <button onclick="addCake(event)">Add Cake</button>
+        </form>
+    </main>
+
+    <div id="result"></div>
+</body>
+
+</html>
