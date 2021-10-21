@@ -32,10 +32,16 @@ function addFruit(event) {
 function printFruitsonScreen() {
     const resultEl = document.getElementById("result");
 
+    listFruits.sort();
     let resultHtml = "";
 
+    // listFruits.forEach(function (fruit) {
+    //     resultHtml += `<li> ${fruit} </li>`
+    // })
+
     for (let i = 0; i < listFruits.length; i++) {
-        resultHtml = resultHtml + `<li> ${listFruits[i]} </li>`
+        // resultHtml = resultHtml + `<li> ${listFruits[i]} </li>`
+        resultHtml += `<li> ${listFruits[i]} </li>`
     }
 
     resultEl.innerHTML = resultHtml;
