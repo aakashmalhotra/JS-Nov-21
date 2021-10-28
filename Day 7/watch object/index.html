@@ -14,14 +14,16 @@
     <main>
         <h1> Watch object </h1>
 
-        <div class="watch">
+        <div class="watch" id="watch-time">
             5: 27 PM
         </div>
-
+        <button onclick="updateTime()">Update Time</button>
+        <button onclick="updateColor()">Update Color</button>
         <div>
             <button onclick="displayproperties()">Show Properties</button>
         </div>
 
+        <button onclick="clock.activateDarkMode()">Activate Dark mode</button>
     </main>
 
     <div id="result"></div>
