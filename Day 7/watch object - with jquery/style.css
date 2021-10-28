@@ -1,0 +1,11 @@
+.watch {
+    padding: 20px;
+    background-color: aliceblue;
+    border-radius: 4px;
+    margin: 32px;
+    width: 60px;
+}
+
+#result {
+    margin: 32px;
+}

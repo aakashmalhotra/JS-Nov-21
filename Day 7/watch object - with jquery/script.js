@@ -16,7 +16,11 @@ const clock = {
 }
 
 function displayproperties() {
-    const resultEl = document.getElementById("result");
+    // const resultEl = document.getElementById("result");
+    const resultEl = $("#result")[0];
+    // $("button") // tag name
+    // $(".class-name") // class name
+    // $("#id") // id name
 
     resultEl.innerHTML = `
         Color of the clock: ${clock.color} <br>

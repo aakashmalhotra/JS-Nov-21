@@ -11,13 +11,14 @@ function addFruit(event) {
     const fruitNameEl = document.getElementById("fruit-name");
 
     // get value from the text box
-    const fruitName = fruitNameEl.value;
+    const fruitName = fruitNameEl.value.toLowerCase();
 
     // Empty the text box after fetching the value from text box
     fruitNameEl.value = "";
 
     console.log("New fruit name fetched from text box")
     console.log(fruitName);
+
 
     // Store the fruit name in listFruits
     // push method of arrays
