@@ -1,4 +1,8 @@
 .type-it-design {
     font-size: 32px;
-    
+
+}
+
+.darkmode--activated {
+    color: blue;
 }

@@ -13,3 +13,11 @@ new TypeIt("#my-element", {
     .pause(2000)
     .empty()
     .go();
+
+function addDarkmodeWidget() {
+
+
+    const darkmode = new Darkmode();
+    darkmode.showWidget();
+}
+window.addEventListener('load', addDarkmodeWidget);
