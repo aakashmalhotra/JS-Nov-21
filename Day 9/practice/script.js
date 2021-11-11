@@ -1,18 +1,12 @@
-let clothingItems = [];
+let myClothingList = [];
 
 function listOfClothes(event) {
     event.preventDefault();
     console.log("Function getting called");
 
-    // 1. Fetch values from the page/dom/document/html/form
-
-    const clothingNameEl = document.getElementById("name-clothe");
-    const clothingTypeEl = document.getElementById("type-clothe");
-    const clothingCostEl = document.getElementById("cost-clothe");
-
-    const clothingName = clothingNameEl.value;
-    const clothingType = clothingTypeEl.value;
-    const clothingCost = clothingCostEl.value;
+    const clothingName = $("#name-clothe").val();
+    const clothingType = $("#type-clothe").val();
+    const clothingCost = $("#cost-clothe").val();
 
     // 2. Create the object
     const item = {
@@ -24,9 +18,25 @@ function listOfClothes(event) {
     // 3. Self-testing - does it log an item containing expected keys and values?
     console.log(item);
 
-    clothingNameEl.value = "";
-    clothingTypeEl.value = "";
-    clothingCostEl.value = "";
+    $("#name-clothe").val("");
+    $("#type-clothe").val("");
+    $("#cost-clothe").val("");
 
+    myClothingList.push(item);
 
+    printAllItems();
+
+}
+
+function printAllItems() {
+    const resultEl = document.getElementById("result");
+
+    let resultHtml = "";
+
+    for (let i = 0; i < myClothingList.length; i++) {
+        resultHtml = resultHtml + `<li> Name: ${myClothingList[i].name} / Cost: ${myClothingList[i].cost} / Type: ${myClothingList[i].type}</li>`;
+
+    }
+
+    resultEl.innerHTML = resultHtml;
 }
